@@ -9,11 +9,10 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: Install Swiftlint
+    - name: Run Swiftlint
       run: |
         git clone https://github.com/realm/SwiftLint
         cd swiftlint
         git submodule update --init --recursive
         make install
-    - name: Run Swiftlint
     - uses: JanGorman/swiftlint@master
