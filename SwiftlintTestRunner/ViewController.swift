@@ -1,7 +1,4 @@
 //
-//  ViewController.swift
-//  SwiftlintTestRunner
-//
 //  Created by Jan Gorman on 25.01.20.
 //  Copyright © 2020 Schnaub. All rights reserved.
 //
